@@ -1,0 +1,93 @@
+.cv-page{
+    color: white;
+    padding: 5vh;
+    display: flex;
+    text-align: center;
+}
+
+.cv-page-column-left{
+    z-index: 75;
+}
+
+.cv-page-column-right{
+    z-index: 50;
+}
+
+.cv-page-column-footer{
+    z-index: 25;
+}
+
+.cv-page-title{
+    font-size: 5vh;
+}
+
+.cv-page-title2{
+    font-size: 4.5vh;
+    text-align: right !important;
+}
+
+.cv-page-subtitle{
+    font-size: 3.5vh;
+    color: #EBA030;
+    font-weight: bold;
+}
+
+.cv-page-txt{
+    font-size: 2.5vh;
+}
+
+.space2{
+    padding-bottom: 1vh;
+}
+
+.cv-page-txt2{
+    font-style: italic;
+    font-size: 3vh;
+}
+
+.cv-page-txt3{
+    font-style: italic;
+    font-size: 1.8vh;
+    text-align: right !important;
+}
+
+.cv-page-txt3:hover{
+    background-color: #EBA030;
+    color: black;
+    font-weight: bold;
+}
+
+.cv-page-btn{
+    margin: 10vh;
+    float: left;
+    background-color: rgba(48, 42, 116, 0.6);
+    color: #EBA030;
+}
+
+.cv-page-btn:hover{
+    background-color: #EBA030;
+    color: black;
+}
+
+.cv-page-link{
+    text-decoration: none;
+    list-style: none;
+    text-align: right;
+    font-size:small;
+    display: block;
+    margin-right: 2vh;
+    color: white;
+}
+
+.cv-page-link:hover{
+    color: #EBA030;
+    font-weight: bold;
+}
+
+.cv-page-alert-rtn{
+    text-align: center !important;
+    font-size: 2vh;
+    width: 45%;
+    background-color: #EBA030;
+    color: black;
+}
